@@ -1,14 +1,14 @@
 {
   "name": "array-sugar",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Extensions of the Array.prototype object",
-  "main": "index.js",
+  "main": "lib/array.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Planeshifter/node-array-sugar.git"
+    "url": "https://github.com/Planeshifter/plusArrays.js.git"
   },
   "keywords": [
     "arrays",
@@ -18,7 +18,11 @@
   "author": "Philipp Burckhardt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Planeshifter/node-array-sugar/issues"
+    "url": "https://github.com/Planeshifter/plusArrays.js/issues"
   },
-  "homepage": "https://github.com/Planeshifter/node-array-sugar"
+  "homepage": "https://github.com/Planeshifter/plusArrays.js",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
 }
