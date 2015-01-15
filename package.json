@@ -1,5 +1,5 @@
 {
-  "name": "array-sugar",
+  "name": "plus_arrays",
   "version": "0.1.0",
   "description": "Extensions of the Array.prototype object",
   "main": "lib/array.js",

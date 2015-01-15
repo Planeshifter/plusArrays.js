@@ -1,4 +1,4 @@
-[![NPM version](https://badge.fury.io/js/plusArrays.svg)](http://badge.fury.io/js/plusArrays)
+[![NPM version](https://badge.fury.io/js/plus_arrays.svg)](http://badge.fury.io/js/plus_arrays)
 [![Build Status](https://travis-ci.org/Planeshifter/plusArrays.js)](https://travis-ci.org/Planeshifter/plusArrays.js)
 
 JS-Arrays-Sugar
@@ -11,7 +11,7 @@ Extensions of the Array.prototype object
 The package can be easily installed via npm:
 
 ```
-npm install plusArrays
+npm install plus_arrays
 ```
 
 To register the custon methods to the 'Array.prototype' object, we simply require the package
