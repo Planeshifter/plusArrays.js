@@ -1,5 +1,5 @@
 [![NPM version](https://badge.fury.io/js/plus_arrays.svg)](http://badge.fury.io/js/plus_arrays)
-[![Build Status](https://travis-ci.org/Planeshifter/plusArrays.js)](https://travis-ci.org/Planeshifter/plusArrays.js)
+[![Build Status](https://travis-ci.org/Planeshifter/plusArrays.js.svg?branch=master)](https://travis-ci.org/Planeshifter/plusArrays.js)
 
 JS-Arrays-Sugar
 ===============
@@ -25,6 +25,8 @@ require(plusArrays)
 ## .compare
 
 ## .sum
+
+## .mean
 
 ## .max
 
