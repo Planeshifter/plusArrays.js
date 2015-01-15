@@ -33,6 +33,22 @@ registerMethod(Array.prototype, "contains", function(elem){
 	return false;	
 });
 
+registerMethod(Array.prototype, "containsAny", function(list){
+	for (var i = 0; i < list.length; i++)
+	  {   
+	  if (this.contains(list[i]) === true) return  true;
+	  } 
+	return false;  	
+});
+
+registerMethod(Array.prototype, "containsAll", function(list){
+	for (var i = 0; i < list.length; i++)
+	  {   
+	  if (this.contains(list[i]) == false) return  false;
+	  } 
+	return true;  	
+});
+
 registerMethod(Array.prototype, "pickRandom", function(){
 	var a = parseInt( Math.random() * this.length, 10);
 	return this[a];	
@@ -59,15 +75,7 @@ registerMethod(Array.prototype, "pickRandomElements",function(no){
 	return target;
 });
 
-registerMethod(Array.prototype, "containsAll", function(list){
-	for (var i = 0; i < list.length; i++)
-	  {   
-	  if (this.contains(list[i]) == false) return  false;
-	  } 
-	return true;  	
-});
-
-registerMethod(Array.prototye, "removeItem", function(index){		
+registerMethod(Array.prototype, "removeItem", function(index){		
 	var list = [];	
 	for (var q = 0; q < this.length; q++)
 	  {   
