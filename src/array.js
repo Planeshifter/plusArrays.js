@@ -14,6 +14,14 @@ function registerMethod(obj, name, fun){
 	}
 }
 
+
+registerMethod(Array.prototype, "pick", function(name){
+	return this.map(function(elem){
+		return elem[name];
+	});
+})
+
+
 registerMethod(Array.prototype, "contains", function(elem){
 	for (var q = 0; q < this.length; q++)
     {
