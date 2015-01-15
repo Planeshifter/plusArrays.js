@@ -22,32 +22,45 @@ require(plusArrays)
 
 # API
 
-## .compare
+## .compare(arr)
 
-## .sum
+Checks whether the array contains the same elements as `arr`. If this is the case, `true` will be returned, otherwise `false`.
 
-## .mean
+## .sum()
+calculates the sum of the elements in the array 
 
-## .max
+## .mean()
+calculates the arithmetic mean of the elements in the array 
 
-## .min
+## .max()
+returns the maximum element array
 
-## .clean
+## .min()
+returns the minimum  element array
 
-## .contains
+## .clean()
 
-## .pickRandom
+## .contains(elem)
+Returns `true` if the array contains `elem`, `false` otherwise.
 
-## .pickRandomElements
+## .pickRandom()
+Returns a random element of the array.
 
-## .containsAll
+## .pickRandomElements(no)
+Returns a new array of length `no` by sampling without replacement from the original array.
 
-## .containsAny
+## .containsAll(arr)
+Returns `true` if the array contains *all* elements of Array `arr`, `false` otherwise.
 
-## .removeItemAt
+## .containsAny(arr)
+Returns `true` if the array contains at least one of the elements of Array `arr`, `false` otherwise.
 
-## .remix
+## .removeItemAt(index)
+Removes the element at position `index` such that the array ends up with one element less than before.
 
-## .unique
+## .remix()
+Returns a new array in which the elements of the original array are randomly re-arranged.
 
-## .concatUnique
+## .unique()
+
+## .concatUnique()
