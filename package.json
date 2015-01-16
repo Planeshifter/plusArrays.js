@@ -1,6 +1,6 @@
 {
   "name": "plus_arrays",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Extensions of the Array.prototype object",
   "main": "lib/array.js",
   "scripts": {
