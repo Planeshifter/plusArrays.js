@@ -1,5 +1,5 @@
 [![NPM version](https://badge.fury.io/js/plus_arrays.svg)](http://badge.fury.io/js/plus_arrays)
-[![Build Status](https://travis-ci.org/Planeshifter/plusArrays.js)](https://travis-ci.org/Planeshifter/plusArrays.js)
+[![Build Status](https://travis-ci.org/Planeshifter/plusArrays.js.svg?branch=master)](https://travis-ci.org/Planeshifter/plusArrays.js)
 
 JS-Arrays-Sugar
 ===============
@@ -22,30 +22,45 @@ require(plusArrays)
 
 # API
 
-## .compare
+## .compare(arr)
 
-## .sum
+Checks whether the array contains the same elements as `arr`. If this is the case, `true` will be returned, otherwise `false`.
 
-## .max
+## .sum()
+calculates the sum of the elements in the array 
 
-## .min
+## .mean()
+calculates the arithmetic mean of the elements in the array 
 
-## .clean
+## .max()
+returns the maximum element array
 
-## .contains
+## .min()
+returns the minimum  element array
 
-## .pickRandom
+## .clean()
 
-## .pickRandomElements
+## .contains(elem)
+Returns `true` if the array contains `elem`, `false` otherwise.
 
-## .containsAll
+## .pickRandom()
+Returns a random element of the array.
 
-## .containsAny
+## .pickRandomElements(no)
+Returns a new array of length `no` by sampling without replacement from the original array.
 
-## .removeItemAt
+## .containsAll(arr)
+Returns `true` if the array contains *all* elements of Array `arr`, `false` otherwise.
 
-## .remix
+## .containsAny(arr)
+Returns `true` if the array contains at least one of the elements of Array `arr`, `false` otherwise.
 
-## .unique
+## .removeItemAt(index)
+Removes the element at position `index` such that the array ends up with one element less than before.
 
-## .concatUnique
+## .remix()
+Returns a new array in which the elements of the original array are randomly re-arranged.
+
+## .unique()
+
+## .concatUnique()
