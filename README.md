@@ -6,7 +6,7 @@
 JS-Arrays-Sugar
 ===============
 
-Extensions of the Array.prototype object
+> Extensions of the Array.prototype object
 
 # Introduction
 
