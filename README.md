@@ -1,5 +1,6 @@
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
 [![Dependencies][dependencies-image]][dependencies-url]
 
 JS-Arrays-Sugar
@@ -87,6 +88,9 @@ Run tests via the command `npm test`
 
 [travis-image]: https://travis-ci.org/Planeshifter/plusArrays.js.svg
 [travis-url]: https://travis-ci.org/Planeshifter/plusArrays.js
+
+[coveralls-image]: https://img.shields.io/coveralls/Planeshifter/plusArrays.js/master.svg
+[coveralls-url]: https://coveralls.io/r/Planeshifter/plusArrays.js?branch=master
 
 [dependencies-image]: http://img.shields.io/david/Planeshifter/plusArrays.js.svg
 [dependencies-url]: https://david-dm.org/Planeshifter/plusArrays.js
