@@ -1,5 +1,6 @@
-[![NPM version](https://badge.fury.io/js/plus_arrays.svg)](http://badge.fury.io/js/plus_arrays)
-[![Build Status](https://travis-ci.org/Planeshifter/plusArrays.js.svg?branch=master)](https://travis-ci.org/Planeshifter/plusArrays.js)
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Dependencies][dependencies-image]][dependencies-url]
 
 JS-Arrays-Sugar
 ===============
@@ -22,45 +23,70 @@ require(plusArrays)
 
 # API
 
-## .compare(arr)
+### .compare(arr)
 
 Checks whether the array contains the same elements as `arr`. If this is the case, `true` will be returned, otherwise `false`.
 
-## .sum()
-calculates the sum of the elements in the array 
+### .sum()
+calculates the sum of the elements in the array
 
-## .mean()
-calculates the arithmetic mean of the elements in the array 
+### .mean()
+calculates the arithmetic mean of the elements in the array
 
-## .max()
+### .max()
 returns the maximum element array
 
-## .min()
+### .min()
 returns the minimum  element array
 
-## .clean()
+### .clean(elem)
+removes all elments in the `array` which are equal to `elem`.
 
-## .contains(elem)
+### .contains(elem)
 Returns `true` if the array contains `elem`, `false` otherwise.
 
-## .pickRandom()
+### .pickRandom()
 Returns a random element of the array.
 
-## .pickRandomElements(no)
+### .pickRandomElements(no)
 Returns a new array of length `no` by sampling without replacement from the original array.
 
-## .containsAll(arr)
+### .containsAll(arr)
 Returns `true` if the array contains *all* elements of Array `arr`, `false` otherwise.
 
-## .containsAny(arr)
+### .containsAny(arr)
 Returns `true` if the array contains at least one of the elements of Array `arr`, `false` otherwise.
 
-## .removeItemAt(index)
+### .removeItemAt(index)
 Removes the element at position `index` such that the array ends up with one element less than before.
 
-## .remix()
+### .remix()
 Returns a new array in which the elements of the original array are randomly re-arranged.
 
-## .unique()
+### .unique()
+Returns a new array in which any duplicates are removed.
 
-## .concatUnique()
+### .concatUnique(arr)
+Concatenates array `arr` to the original array, after removing all elements present in the original array.
+
+### .orderIndices(fun)
+Returns an array of indices giving the position of the element in a sorted array. The `fun` parameter expects a custom comparator function. If none is supplied,
+elements are sorted in increasing order.
+
+## Unit Tests
+
+Run tests via the command `npm test`
+
+---
+## License
+
+[MIT license](http://opensource.org/licenses/MIT).
+
+[npm-image]: https://badge.fury.io/js/plus_arrays.svg
+[npm-url]: http://badge.fury.io/js/plus_arrays
+
+[travis-image]: https://travis-ci.org/Planeshifter/plusArrays.js.svg
+[travis-url]: https://travis-ci.org/Planeshifter/plusArrays.js
+
+[dependencies-image]: http://img.shields.io/david/Planeshifter/plusArrays.js.svg
+[dependencies-url]: https://david-dm.org/Planeshifter/plusArrays.js
